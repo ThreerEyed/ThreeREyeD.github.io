@@ -18,8 +18,8 @@
   
   <entry>
     <title>Go语言基础学习day06（结构体）</title>
-    <link href="http://threereyed.top/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day06/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day06/"/>
-    <id>http://threereyed.top/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day06/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day06/</id>
+    <link href="http://threereyed.top/go-basics/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day06/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day06/"/>
+    <id>http://threereyed.top/go-basics/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day06/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day06/</id>
     <published>2020-05-30T03:54:49.000Z</published>
     <updated>2020-06-02T04:29:22.681Z</updated>
     
@@ -35,7 +35,7 @@
     </summary>
     
     
-      <category term="Go语言基础" scheme="http://threereyed.top/categories/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/"/>
+      <category term="Go语言基础" scheme="http://threereyed.top/categories/go-basics/"/>
     
     
       <category term="go" scheme="http://threereyed.top/tags/go/"/>
@@ -44,8 +44,8 @@
   
   <entry>
     <title>Go语言基础学习day05（指针，map，range）</title>
-    <link href="http://threereyed.top/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day05/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day05/"/>
-    <id>http://threereyed.top/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day05/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day05/</id>
+    <link href="http://threereyed.top/go-basics/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day05/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day05/"/>
+    <id>http://threereyed.top/go-basics/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day05/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day05/</id>
     <published>2020-05-29T06:14:59.000Z</published>
     <updated>2020-05-29T10:11:15.598Z</updated>
     
@@ -61,7 +61,7 @@
     </summary>
     
     
-      <category term="Go语言基础" scheme="http://threereyed.top/categories/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/"/>
+      <category term="Go语言基础" scheme="http://threereyed.top/categories/go-basics/"/>
     
     
       <category term="go" scheme="http://threereyed.top/tags/go/"/>
@@ -70,8 +70,8 @@
   
   <entry>
     <title>Go语言基础学习day04（数组、切片）</title>
-    <link href="http://threereyed.top/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day04/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day04/"/>
-    <id>http://threereyed.top/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day04/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day04/</id>
+    <link href="http://threereyed.top/go-basics/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day04/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day04/"/>
+    <id>http://threereyed.top/go-basics/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day04/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day04/</id>
     <published>2020-05-27T14:31:21.000Z</published>
     <updated>2020-05-29T08:07:30.144Z</updated>
     
@@ -87,7 +87,7 @@
     </summary>
     
     
-      <category term="Go语言基础" scheme="http://threereyed.top/categories/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/"/>
+      <category term="Go语言基础" scheme="http://threereyed.top/categories/go-basics/"/>
     
     
       <category term="go" scheme="http://threereyed.top/tags/go/"/>
@@ -96,8 +96,8 @@
   
   <entry>
     <title>Go语言基础学习day03（流程控制、运算符、函数）</title>
-    <link href="http://threereyed.top/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day03/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day03/"/>
-    <id>http://threereyed.top/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day03/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day03/</id>
+    <link href="http://threereyed.top/go-basics/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day03/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day03/"/>
+    <id>http://threereyed.top/go-basics/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day03/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day03/</id>
     <published>2020-05-26T10:03:31.000Z</published>
     <updated>2020-05-29T08:07:56.852Z</updated>
     
@@ -110,7 +110,7 @@
     </summary>
     
     
-      <category term="Go语言基础" scheme="http://threereyed.top/categories/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/"/>
+      <category term="Go语言基础" scheme="http://threereyed.top/categories/go-basics/"/>
     
     
       <category term="go" scheme="http://threereyed.top/tags/go/"/>
@@ -119,8 +119,8 @@
   
   <entry>
     <title>Go语言基础学习day02（数据类型、变量、常量）</title>
-    <link href="http://threereyed.top/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day02/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day02/"/>
-    <id>http://threereyed.top/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day02/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day02/</id>
+    <link href="http://threereyed.top/go-basics/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day02/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day02/"/>
+    <id>http://threereyed.top/go-basics/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day02/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day02/</id>
     <published>2020-05-25T01:57:50.000Z</published>
     <updated>2020-05-29T08:08:21.428Z</updated>
     
@@ -133,7 +133,7 @@
     </summary>
     
     
-      <category term="Go语言基础" scheme="http://threereyed.top/categories/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/"/>
+      <category term="Go语言基础" scheme="http://threereyed.top/categories/go-basics/"/>
     
     
       <category term="go" scheme="http://threereyed.top/tags/go/"/>
@@ -142,8 +142,8 @@
   
   <entry>
     <title>Go语言基础学习day01（环境搭建）</title>
-    <link href="http://threereyed.top/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day01/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day01/"/>
-    <id>http://threereyed.top/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day01/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day01/</id>
+    <link href="http://threereyed.top/go-basics/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day01/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day01/"/>
+    <id>http://threereyed.top/go-basics/Go%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0day01/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day01/</id>
     <published>2020-05-20T14:17:49.000Z</published>
     <updated>2020-05-29T08:08:35.579Z</updated>
     
@@ -156,7 +156,7 @@
     </summary>
     
     
-      <category term="Go语言基础" scheme="http://threereyed.top/categories/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80/"/>
+      <category term="Go语言基础" scheme="http://threereyed.top/categories/go-basics/"/>
     
     
       <category term="go" scheme="http://threereyed.top/tags/go/"/>
@@ -165,8 +165,8 @@
   
   <entry>
     <title>Windows下PyCharm的基本快捷键</title>
-    <link href="http://threereyed.top/Python/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
-    <id>http://threereyed.top/Python/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE/</id>
+    <link href="http://threereyed.top/python/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    <id>http://threereyed.top/python/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE/</id>
     <published>2018-05-21T06:14:59.000Z</published>
     <updated>2020-06-02T05:33:44.000Z</updated>
     
@@ -182,7 +182,7 @@
     </summary>
     
     
-      <category term="Python" scheme="http://threereyed.top/categories/Python/"/>
+      <category term="Python" scheme="http://threereyed.top/categories/python/"/>
     
     
       <category term="pycharm" scheme="http://threereyed.top/tags/pycharm/"/>
