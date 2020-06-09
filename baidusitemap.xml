@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://threereyed.top/Python/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
+    <lastmod>2020-06-09</lastmod>
+  </url>  <url>
     <loc>http://threereyed.top/go-basics/Go-basics-day09/goroutine/</loc>
     <lastmod>2020-06-09</lastmod>
   </url>  <url>
@@ -15,9 +18,6 @@
   </url>  <url>
     <loc>http://threereyed.top/go-basics/Go-basics-day07/go-basics-day07/</loc>
     <lastmod>2020-06-04</lastmod>
-  </url>  <url>
-    <loc>http://threereyed.top/python/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
-    <lastmod>2020-06-02</lastmod>
   </url>  <url>
     <loc>http://threereyed.top/go-basics/Go-basics-day02/Go%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0day02/</loc>
     <lastmod>2020-06-02</lastmod>
