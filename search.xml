@@ -30,8 +30,8 @@
     
     <entry>
       <title>操作系统初始（功能、定义）</title>
-      <link href="/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/operating-system/function-definition/"/>
-      <url>/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/operating-system/function-definition/</url>
+      <link href="/os/operating-system/function-definition/"/>
+      <url>/os/operating-system/function-definition/</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h2><h3 id="百度百科定义"><a href="#百度百科定义" class="headerlink" title="百度百科定义"></a>百度百科定义</h3><p>操作系统(Operating System，简称OS)是管理<a href="https://baike.baidu.com/item/计算机" target="_blank" rel="noopener">计算机</a><a href="https://baike.baidu.com/item/硬件" target="_blank" rel="noopener">硬件</a>与<a href="https://baike.baidu.com/item/软件" target="_blank" rel="noopener">软件</a>资源的<a href="https://baike.baidu.com/item/计算机程序" target="_blank" rel="noopener">计算机程序</a>。操作系统需要处理如管理与配置<a href="https://baike.baidu.com/item/内存" target="_blank" rel="noopener">内存</a>、决定<a href="https://baike.baidu.com/item/系统资源/974435" target="_blank" rel="noopener">系统资源</a>供需的优先次序、控制<a href="https://baike.baidu.com/item/输入设备/10823368" target="_blank" rel="noopener">输入设备</a>与<a href="https://baike.baidu.com/item/输出设备/10823333" target="_blank" rel="noopener">输出设备</a>、操作网络与管理文件系统等基本事务。操作系统也提供一个让用户与系统交互的操作界面。</p><h3 id="操作系统的定义"><a href="#操作系统的定义" class="headerlink" title="操作系统的定义"></a>操作系统的定义</h3><p>提供用户<strong>接口</strong>，方便用户控制计算机</p><p>负责为应用程序<strong>分配调度软硬件资源</strong>，并控制与协调应用程序并发活动，帮助用户存取和保存信息</p><h3 id="桌面常见的四大操作系统"><a href="#桌面常见的四大操作系统" class="headerlink" title="桌面常见的四大操作系统"></a>桌面常见的四大操作系统</h3><p>Windows、Linux、Mac os、Unix</p><p><img src="https://i.loli.net/2020/06/07/yCB8rmgSlzOQciA.png" alt="u=3621867659,1152751757&amp;fm=26&amp;gp=0"></p><h3 id="基本功能"><a href="#基本功能" class="headerlink" title="基本功能"></a>基本功能</h3><h4 id="进程管理"><a href="#进程管理" class="headerlink" title="进程管理"></a>进程管理</h4><ul><li>进程控制：创建、暂停、唤醒、撤销</li><li>进程调度：调度策略、优先级；</li><li>进程通信：进程间的通信</li></ul><h4 id="内存管理"><a href="#内存管理" class="headerlink" title="内存管理"></a>内存管理</h4><ul><li>内存分配</li><li>内存共享</li><li>内存保护</li><li>虚拟内存</li></ul><h4 id="设备管理"><a href="#设备管理" class="headerlink" title="设备管理"></a>设备管理</h4><ul><li>设备的分配与调度</li><li>设备无关性作</li><li>设备传输控制</li><li>设备驱动</li></ul><h4 id="文件管理"><a href="#文件管理" class="headerlink" title="文件管理"></a>文件管理</h4><ul><li>存储空间管理</li><li>文件的操作</li><li>目录的操作</li><li>文件和目录的存取权限管理</li></ul><p>一个软件能够管理进程、管理内存这两个基本功能，我们就可以说它是操作系统</p><p>操作系统的地位：</p><p><img src="https://i.loli.net/2020/06/08/pmKZCx3YQrMDEvX.png" alt=""></p><p>操作系统覆盖在硬件上面</p>]]></content>
       
@@ -355,31 +355,20 @@
     
     
     <entry>
-      <title>老朋友，近来可好？</title>
-      <link href="/messageboard/index.html"/>
-      <url>/messageboard/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>我喜欢的声音</title>
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><script>console.error("SyntaxError: Unexpected token / in JSON at position 48");</script>    <div id="aplayer-GRYcqnOd" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2243708362" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"    ></div>    <div id="aplayer-KxXwQPmv" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5030248493" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><script>console.error("SyntaxError: Unexpected token / in JSON at position 48");</script>    <div id="aplayer-VhkViZtp" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2243708362" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"    ></div>    <div id="aplayer-IMErqYkh" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5030248493" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>老朋友，近来可好？</title>
+      <link href="/messageboard/index.html"/>
+      <url>/messageboard/index.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
       
@@ -393,6 +382,17 @@
       <url>/photos/index.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img" src='https://i.loli.net/2020/05/22/FvBk5DUKs4RtMnP.jpg'>  <figcaption>  <div class="gallery-group-name">杭州印象</div>  <p>在杭州待了一周的纪念</p>  <a href='/photos/Hangzhou'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img" src='https://i.loli.net/2020/05/22/nprcTug74WFkY5V.jpg'>  <figcaption>  <div class="gallery-group-name">重庆印象</div>  <p>在重庆的印象</p>  <a href='/photos/Chongqing'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img" src='https://i.loli.net/2020/05/22/AHDmiQ6NpqxhFvP.jpg'>  <figcaption>  <div class="gallery-group-name">上海一日游</div>  <p>上海一日游</p>  <a href='/photos/Shanghai'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img" src='https://i.loli.net/2020/05/22/KDfQEpPVmWzOG9Z.jpg'>  <figcaption>  <div class="gallery-group-name">武汉记忆</div>  <p>武汉的风景</p>  <a href='/photos/Wuhan'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img" src='https://i.loli.net/2020/05/22/36scwISE1GgCTMq.jpg'>  <figcaption>  <div class="gallery-group-name">苏州印象</div>  <p>苏州的回忆</p>  <a href='/photos/Suzhou'></a>  </figcaption>  </figure>  </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
       
     </entry>
     
