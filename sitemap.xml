@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://threereyed.top/go-basics/Go-basics-day10/select/</loc>
+    
+    <lastmod>2020-06-09T09:31:40.059Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://threereyed.top/go-basics/Go-basics-day09/goroutine/</loc>
     
-    <lastmod>2020-06-07T04:17:21.100Z</lastmod>
+    <lastmod>2020-06-09T09:21:16.832Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://threereyed.top/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/operating-system/function-definition/</loc>
+    
+    <lastmod>2020-06-08T03:38:24.288Z</lastmod>
     
   </url>
   
