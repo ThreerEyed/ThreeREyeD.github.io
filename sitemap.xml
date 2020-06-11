@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://threereyed.top/go-basics/Go-basics-day11/lock/</loc>
+    
+    <lastmod>2020-06-11T10:17:12.267Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://threereyed.top/go-basics/go-practices/go-practices/</loc>
+    
+    <lastmod>2020-06-10T05:47:15.445Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://threereyed.top/go-basics/Go-basics-day10/select/</loc>
+    
+    <lastmod>2020-06-10T03:27:12.810Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://threereyed.top/Python/pycharm%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
     
     <lastmod>2020-06-09T16:42:03.616Z</lastmod>
@@ -12,13 +33,6 @@
     <loc>http://threereyed.top/go-basics/Go-basics-day09/goroutine/</loc>
     
     <lastmod>2020-06-09T16:35:48.488Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://threereyed.top/go-basics/Go-basics-day10/select/</loc>
-    
-    <lastmod>2020-06-09T09:31:40.059Z</lastmod>
     
   </url>
   
