@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://threereyed.top/java/Java-array/</loc>
+    <loc>http://threereyed.top/uncategorized/Java-basics/java-data-type/</loc>
+    <lastmod>2021-05-26</lastmod>
+  </url>  <url>
+    <loc>http://threereyed.top/java/Java-basics/Java-array/</loc>
     <lastmod>2021-05-26</lastmod>
   </url>  <url>
     <loc>http://threereyed.top/go-basics/Go-basics-day12/panic-error-recover/</loc>
