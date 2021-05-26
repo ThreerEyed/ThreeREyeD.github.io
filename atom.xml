@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://threereyed.top/"/>
-  <updated>2020-06-11T10:17:12.267Z</updated>
+  <updated>2020-07-02T10:37:01.126Z</updated>
   <id>http://threereyed.top/</id>
   
   <author>
@@ -15,6 +15,58 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>panic-error-recover</title>
+    <link href="http://threereyed.top/go-basics/Go-basics-day12/panic-error-recover/"/>
+    <id>http://threereyed.top/go-basics/Go-basics-day12/panic-error-recover/</id>
+    <published>2020-06-29T01:46:45.000Z</published>
+    <updated>2020-07-02T10:37:01.126Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><br/><div class="note info">            <p>本节内容主要学习在go语言中的错误和异常以及它们的区别、表示、处理。</p>          </div><h2 id="错误和异常的区别"><a href="#错误和异常的区别" class="headerlink" title="错误和异常的区别"></a>错误和异常的区别</h2><ul><li>错误和异常是不同的概念</li><li>错误指的是可能出现问题的地方出现了问题，比如打开一个文件时失败，这种情况在人们的意料之中 ；而异常指的是不应该出现问题的地方出现了问题，比如引用了空指针，这种情况在人们的意料之外。可见，错误是业务过程的一部分，而异常不是</li><li>从Go语言机制上讲，错误和异常就是error和panic的区别</li><li>Go语言错误和异常是可以互相转换的：</li></ul><ol><li>错误转异常，如程序尝试请求某个URL，最多尝试三次，尝试三次的过程中请求失败是错误，尝试完第三次还不成功的话，失败就被提升为异常了</li><li>异常转错误，如panic触发的异常被recover恢复后，将返回值中error类型的变量进行赋值，以便上层函数继续走错误处理流程</li></ol><h3 id="演示一个错误"><a href="#演示一个错误" class="headerlink" title="演示一个错误"></a>演示一个错误</h3><p>示例代码：</p><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (  </span><br><span class="line">    <span class="string">"fmt"</span></span><br><span class="line">    <span class="string">"os"</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;  </span><br><span class="line">    f, err := os.Open(<span class="string">"/test.txt"</span>)</span><br><span class="line">    <span class="keyword">if</span> err != <span class="literal">nil</span> &#123;</span><br><span class="line">        fmt.Println(err)</span><br><span class="line">        <span class="keyword">return</span></span><br><span class="line">    &#125;</span><br><span class="line">  <span class="comment">//根据f进行文件的读或写</span></span><br><span class="line">    fmt.Println(f.Name(), <span class="string">"opened successfully"</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><blockquote><p>在os包中有打开文件的功能函数：</p><p> func Open(name string) (file *File, err error)</p><p>如果文件已经成功打开，那么Open函数将返回文件处理。如果在打开文件时出现错误，将返回一个非nil错误。</p></blockquote><p>如果一个函数或方法返回一个错误，那么按照惯例，它必须是函数返回的最后一个值。因此，<code>Open</code> 函数返回的值是最后一个值。</p><p>处理错误的惯用方法是将返回的错误与nil进行比较。nil值表示没有发生错误，而非nil值表示出现错误。在我们的例子中，我们检查错误是否为nil。如果它不是nil，我们只需打印错误并从主函数返回。</p><p>运行结果：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open &#x2F;test.txt: No such file or directory</span><br></pre></td></tr></table></figure><p>我们得到一个错误，说明该文件不存在。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="Go语言基础" scheme="http://threereyed.top/categories/go-basics/"/>
+    
+    
+      <category term="go" scheme="http://threereyed.top/tags/go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>os-user-interface</title>
+    <link href="http://threereyed.top/os/operating-system/os-user-interface/"/>
+    <id>http://threereyed.top/os/operating-system/os-user-interface/</id>
+    <published>2020-06-15T13:30:22.000Z</published>
+    <updated>2020-06-15T15:36:43.126Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><br/><br/><br/><br/><hr><h2 id="操作系统用户界面"><a href="#操作系统用户界面" class="headerlink" title="操作系统用户界面"></a>操作系统用户界面</h2><h3 id="操作系统启动过程"><a href="#操作系统启动过程" class="headerlink" title="操作系统启动过程"></a>操作系统启动过程</h3><h4 id="BIOS和主引导记录MBR"><a href="#BIOS和主引导记录MBR" class="headerlink" title="BIOS和主引导记录MBR"></a>BIOS和主引导记录MBR</h4><h5 id="实模式和保护模式"><a href="#实模式和保护模式" class="headerlink" title="实模式和保护模式"></a>实模式和保护模式</h5><ol><li><p>实模式（实地址模式、保护模式）</p><ul><li><p>程序按照8086 寻址方法访问Oh–FFFFFh（1mb）空间</p><p>只能访问Oh–FFFFFh（1mb）的空间</p></li><li><p>寻址方式：物理地址（20位）= 段地址  ：偏移地址</p></li><li><p>CPU 单任务运行</p></li></ul><p>刚开机的时候使用实模式</p></li><li><p>保护模式</p></li></ol><p>​       操作系统启动之后，接管计算机之后，计算机进入到保护模式</p><p>实模式存取的 1M 空间</p><ul><li>前面的644K【00000 – 9FFFF】: 基本内存</li><li>中间的128K【A0000 – BFFFF】：显卡内存</li><li>末尾的256K【C0000 – FFFFF】：BIOS</li></ul><h3 id="操作系统生成"><a href="#操作系统生成" class="headerlink" title="操作系统生成"></a>操作系统生成</h3><h3 id="用户界面"><a href="#用户界面" class="headerlink" title="用户界面"></a>用户界面</h3><h3 id="系统调用"><a href="#系统调用" class="headerlink" title="系统调用"></a>系统调用</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="操作系统" scheme="http://threereyed.top/categories/os/"/>
+    
+    
+      <category term="操作系统" scheme="http://threereyed.top/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>资源锁</title>
