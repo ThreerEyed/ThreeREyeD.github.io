@@ -17,19 +17,6 @@
     
     
     <entry>
-      <title>java-data-type</title>
-      <link href="/uncategorized/Java-basics/java-data-type/"/>
-      <url>/uncategorized/Java-basics/java-data-type/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>panic-error-recover</title>
       <link href="/go-basics/Go-basics-day12/panic-error-recover/"/>
       <url>/go-basics/Go-basics-day12/panic-error-recover/</url>
@@ -498,7 +485,7 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><script>console.error("SyntaxError: Unexpected token / in JSON at position 48");</script>    <div id="aplayer-UitvrDCA" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2243708362" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"    ></div>    <div id="aplayer-ehXaPRpp" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5030248493" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><script>console.error("SyntaxError: Unexpected token / in JSON at position 48");</script>    <div id="aplayer-GLbMNyBo" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="2243708362" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"    ></div>    <div id="aplayer-Nkgpxibq" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5030248493" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="true" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
